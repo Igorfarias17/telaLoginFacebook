@@ -1,0 +1,154 @@
+* { 
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+body{
+  
+    background-color: #f0f2f5;  
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.facebook {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 82%;
+    height: 500px;
+    
+}
+
+
+.imagem{
+
+    padding-bottom: 19px;
+    padding-top: 29px;  
+
+}
+
+.fbimg{
+
+    height: 106px;
+    margin: -19px;
+    
+}
+
+.texto{
+
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    width: 500px;
+    margin: 10px;
+    padding: 0 0 20px;
+    
+}
+
+.login{
+    
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: #ffffff;
+   width: 100%;;
+   padding: 1.3rem 0;
+   border: 1px solid lightgray;
+   border-radius: 6px;
+   
+}
+
+.logar, .pass{
+    
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #ccd0d5;
+    margin: 0;
+    border-radius: 6px;
+   
+}   
+
+.entrar{
+    
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+}
+   
+.as{
+
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.linha{  
+
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+    text-align: center;
+    width:90%; 
+}
+
+.criarconta{
+
+    padding-top: 6px;
+    background-color: #00a400;;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 180px;
+    color: #ffffff;
+    font-weight: bolder;
+    
+}
+
+.final{
+   
+    text-align: center;
+    margin-top: 28px;
+    
+}
+
+.msg{
+    
+    font-weight: 600;
+    color: inherit;
+
+}
+
+@media (max-width: 1024px) {
+    .facebook {
+        width: 100%;
+}
+}
+
+@media (max-width: 650px) {
+
+    .login {
+    width: 100%;
+    
+ 
+}
+}
